@@ -1,3 +1,4 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
 filelock==3.29.0
 fsspec==2026.4.0
 Jinja2==3.1.6
