@@ -7,7 +7,7 @@
 #
 #SBATCH --nodes=1
 #SBATCH --mem=1gb
-#SBATCH --partition=gpu
+#SBATCH --partition=gpu-long
 #SBATCH --gres=gpu:1
 
 module load miniconda3 cuda11.4

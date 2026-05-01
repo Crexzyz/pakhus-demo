@@ -29,5 +29,5 @@ At the `demo-cpu.sh` and `demo-gpu.sh`, **remember to change** the `--mail-user`
     1. Restore it with `tmux a`
 1. Monitor the latest output of the run with
     ```bash
-    watch -n 1 tail -f 5 gpu-demo.out
+    watch -n 1 tail -n 10 gpu-demo.out
     ```
