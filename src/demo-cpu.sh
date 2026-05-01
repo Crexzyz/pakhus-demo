@@ -8,8 +8,7 @@
 #SBATCH --nodes=1
 #SBATCH --mem=1gb
 #SBATCH --partition=cpu-only
-#SBATCH --gres=gpu:0
 
-module load miniconda3 cuda11.4
+module load miniconda3
 conda activate pydemo
 srun python gpu_demo.py
